@@ -143,3 +143,39 @@ h2 {
     color: #898989;
     font-size: 16px; 
 }
+
+/*Third section - Contact us*/
+
+.contact-form {
+    background: #010101;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.contact-form__title {
+    margin-bottom: 50px;    
+}
+
+.form__input {
+    background: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 40px;
+    border: 0;
+    margin-right: 21px;
+    outline: none;
+}
+
+.form__btn {
+    background: #fcdb00;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    padding: 14px 0;
+    border: 0;
+    cursor: pointer;
+}
