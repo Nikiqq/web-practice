@@ -23,6 +23,29 @@ h2 {
     text-align: center;
 }
 
+.title {
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__main_color_yellow {
+    color: #fcdb00;
+}
+
+.title__text_color_grey {
+    color: #898989;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+    line-height: 1.2em;
+}
+
 /*First section - header*/
 
 .site-header {
@@ -84,4 +107,39 @@ h2 {
 .ipad {
     display: block;
     margin: 0 auto;
+}
+
+/*Second section - Features*/
+
+
+.features {
+    padding-top: 100px;
+    padding-bottom: 42px;    
+}
+
+.features__title {
+    margin-bottom: 70px;    
+}
+
+.feature {
+    margin-bottom: 76px;
+}
+
+.feature__icon-block {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    color: black;
+}
+
+.feature__title {
+    font-size: 22px;
+}
+
+.feature__text {
+    color: #898989;
+    font-size: 16px; 
 }
