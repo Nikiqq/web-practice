@@ -198,3 +198,55 @@ h2 {
     width: 184px;
     margin: 0 auto;
 }
+
+
+@media (max-width: 992px) { 
+    .logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .offer {
+        text-align: center;    
+    }
+    
+    .offer__text {
+        margin: 20px auto;
+    }
+    
+    .icons {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    
+    .form__input {
+        margin-right: 0;
+        width: 100%;
+    }
+    
+    .form__btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .title__text,
+    .offer__text{
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) { 
+    .ipad {
+        width: 100%;
+    }
+    
+    .header-menu {
+        flex-direction: column;
+    }
+    
+    .header-menu__item {
+        text-align: center;
+        margin: 2px 0;
+    }
+}
