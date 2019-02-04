@@ -76,3 +76,18 @@ body, .wrap, .slider, .slider__item, .slider__content {
 .arrow-right_color_white {
     border-color: transparent transparent transparent #fff;
 }
+
+@media (max-width: 500px) {
+    .slider__arrow {
+        top: 70%;
+    }
+    
+    .arrow-left {
+        margin-left: 60px;
+    }
+    
+     .arrow-right{
+        margin-right: 60px;
+    }
+}
+
