@@ -30,7 +30,7 @@ function slideRight() {
 }
 
 function changeArrowColor() {
-    if(current === 0) {
+    if(sliderImages[current].querySelector('.slider__text').classList.contains('slider__text_color_white')) {    
         arrowLeft.classList.add('arrow-left_color_white');
         arrowRight.classList.add('arrow-right_color_white');
     }

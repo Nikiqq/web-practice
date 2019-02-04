@@ -41,7 +41,7 @@ body, .wrap, .slider, .slider__item, .slider__content {
     user-select: none;
 }
 
-.slider__item_pos_one .slider__text {
+.slider__text_color_white {
     color: white;
 }
 
