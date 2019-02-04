@@ -41,6 +41,10 @@ body, .wrap, .slider, .slider__item, .slider__content {
     user-select: none;
 }
 
+.slider__item_pos_one .slider__text {
+    color: white;
+}
+
 .slider__arrow {
     cursor: pointer;
     position: absolute;
@@ -65,3 +69,10 @@ body, .wrap, .slider, .slider__item, .slider__content {
     margin-right: 30px;
 }
 
+.arrow-left_color_white {
+    border-color: transparent #fff transparent transparent;
+}
+
+.arrow-right_color_white {
+    border-color: transparent transparent transparent #fff;
+}

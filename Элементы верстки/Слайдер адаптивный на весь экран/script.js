@@ -19,12 +19,25 @@ function slideLeft() {
     reset();
     sliderImages[current - 1].style.display = 'block';
     current--;
+    changeArrowColor();
 }
 
 function slideRight() {
     reset();
     sliderImages[current + 1].style.display = 'block';
     current++;
+    changeArrowColor();
+}
+
+function changeArrowColor() {
+    if(current === 0) {
+        arrowLeft.classList.add('arrow-left_color_white');
+        arrowRight.classList.add('arrow-right_color_white');
+    }
+    else {
+        arrowLeft.classList.remove('arrow-left_color_white');
+        arrowRight.classList.remove('arrow-right_color_white');
+    }
 }
 
 arrowLeft.addEventListener('click', function() {
