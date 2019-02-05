@@ -1,0 +1,33 @@
+body {
+    background: #aaa;
+}
+
+.slider {
+    width: 40%;
+    margin: 100px auto;
+}
+
+.slider__item {
+    outline: none;
+}
+
+.slider__img {
+    display: block;
+    max-width: 100%;
+}
+
+.slider__text {
+    background: #000;
+    padding: 20px;
+}
+
+.slider__title,
+.slider__description{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.slider__title {
+    margin-bottom: 10px;
+}
