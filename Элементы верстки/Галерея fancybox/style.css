@@ -1,0 +1,16 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.gallery__item {
+    margin: 20px;
+}
+
+.gallery__thumb {
+    display: block;
+    width: 320px;
+    height: 200px;
+}
