@@ -1,0 +1,29 @@
+.wrap {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.card__link {
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 3px;
+    color: #5a8fcc;
+}
+
+.modal-window {
+    display: none;
+    max-width: 500px;
+}
+
+.modal-window__title {
+    text-transform: uppercase;
+}
+
+.modal-window__text {
+    text-align: justify;
+}
+
