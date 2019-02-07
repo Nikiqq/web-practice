@@ -59,3 +59,24 @@ h1, h2, h3, h4, h5, h6 {
     width: 21px;
     height: 17px;
 }
+
+/*Section - offer*/
+
+.offer {
+    background: url(../img/first-bg.jpg) no-repeat center top;
+    padding: 220px 0;
+    line-height: 30px;
+}
+
+.title__heading {
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.title__desc {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
