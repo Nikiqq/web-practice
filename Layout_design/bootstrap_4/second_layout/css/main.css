@@ -117,3 +117,39 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 42px;
     line-height: 41px;
 }
+
+/*Section - about*/
+
+.about {
+    padding: 65px 0 100px;
+}
+
+.about__descr {
+    margin-top: 60px;
+}
+
+.descr__title {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.descr__text {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.descr__button {
+    padding: 18px 35px;
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+}
+
+.food-images_down {
+    margin-top: 50px;
+}
+
+
+
+
