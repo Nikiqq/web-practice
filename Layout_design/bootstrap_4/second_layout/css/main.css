@@ -84,3 +84,36 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 40px;
     color: white;
 }
+
+/*Section - call*/
+
+.call {
+    background: #edf1f3;
+    border-bottom: 1px solid #dde3e7;
+    padding: 32px 0 30px;
+}
+
+.phone__text {
+    background: url(../img/phone.png) no-repeat left center;
+    text-transform: uppercase;
+    width: 180px;
+    padding-left: 56px;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.phone__bottom-text {
+    font-size: 16px;
+    margin-top: -4px;
+    display: block;
+}
+
+.phone__number {
+    font-family: 'Sintony', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #14141d;
+    margin-left: 42px;
+    line-height: 41px;
+}
