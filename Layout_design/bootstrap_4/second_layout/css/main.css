@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fea100;
 }
 
+.pink {
+    color: #fe4c8d;
+}
+
 /*Section - header*/
 
 .site-header {
@@ -150,6 +154,68 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 50px;
 }
 
+/*Section - special*/
 
+.special {
+    background: url(../img/third-bg.jpg) no-repeat center top;
+    padding-top: 80px;
+}
 
+.special__title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.food-card {
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    padding-bottom: 28px;
+    margin-bottom: 128px;
+}
+
+.food-card__img {
+    margin-bottom: 52px;
+}
+
+.food-card__title {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.food-card__desc {
+    font-size: 14px;
+    padding: 0 50px;
+    margin-bottom: 62px;
+}
+
+.food-card__details {
+    padding-top: 19px;
+    border-top: 1px solid #e1e1e1;
+    margin: 0 48px;
+}
+
+.food-card__delivery {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.food-card__delivery-text {
+    width: 78px;
+    text-align: left;
+    padding-right: 18px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.food-card__phone {
+    font-size: 24px;
+    margin-left: 18px;
+}
+
+.food-card__price {
+    font-size: 28px;
+    font-weight: 700;
+}
 
