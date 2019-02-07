@@ -219,3 +219,49 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+/*Section - footer*/
+
+.site-footer {
+    background: #373844;
+    color: #93989e;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 72px 0 106px;
+}
+
+.socials__item {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 7px;
+}
+
+.socials__link {
+    display: block;
+    width: 52px;
+    height: 52px;
+    
+}
+
+.socials__item_fb {
+    background: #3b5998 url(../img/fb.png) no-repeat center center;
+}
+
+.socials__item_tw {
+    background: #55acee url(../img/tw.png) no-repeat center center;
+}
+
+.socials__item_g {
+    background: #dd4b39 url(../img/g.png) no-repeat center center;
+}
+
+.line {
+    margin-top: 52px;
+    height: 1px;
+    background: #52535e;
+}
+
+.credits {
+    margin-top: 43px;
+    text-align: center;
+}
+
