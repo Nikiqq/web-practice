@@ -24,3 +24,12 @@ body {
 .content {
     margin-top: 3rem;
 }
+
+.page-link {
+    color: black;
+}
+
+.page-item.active .page-link {
+    background-color: #f03a3a ;
+    border-color: #f03a3a;
+}
