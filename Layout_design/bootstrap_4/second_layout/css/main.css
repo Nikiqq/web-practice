@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .food-card {
+    background: #fff;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     padding-bottom: 28px;
@@ -336,6 +337,11 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center;
         margin-bottom: 20px;
     }
+    
+    .food-images__item {
+        margin-bottom: 0;
+    }
+
 }
 
 @media (max-width: 576px) { 
@@ -355,6 +361,49 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         margin-top: 20px;
         text-align: left;
+    }
+    
+    .offer {
+        padding: 140px 0;
+    }
+    
+    .phone {
+        flex-wrap: wrap;
+    }
+        
+    .phone__text {
+        width: 200px;
+        margin: 0 auto;
+    }
+    
+    .phone__number {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .food-card__desc {
+        padding: 0 20px;
+    }
+    
+    .food-card__delivery {
+        flex-direction: column;
+    }
+    
+    .food-card__delivery-text {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        border-right: none;
+        font-size: 1.5em;
+    }
+
+    .food-card__phone {
+        font-size: 1.6em;
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
     }
 }
 
