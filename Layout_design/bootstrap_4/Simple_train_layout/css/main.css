@@ -22,7 +22,7 @@ body {
 /*Section - content*/
 
 .content {
-    margin-top: 3rem;
+    margin: 3rem auto;
 }
 
 /*Pagination*/
@@ -34,4 +34,35 @@ body {
 .page-item.active .page-link {
     background-color: #f03a3a ;
     border-color: #f03a3a;
+}
+
+/*Section - footer*/
+
+.site-footer {
+    padding: 2rem 0;
+    color: white;
+}
+
+.about__title,
+.contacts__title,
+.footer-nav__title {
+    margin-bottom: 1rem;
+}
+
+.footer-nav__link {
+    padding: 0;
+    margin: 10px 0;
+}
+
+/*Section - credits*/
+
+.credits {
+    background-color: #202327;
+    text-align: center;
+    color: gray;
+    padding: 2rem 0;
+}
+
+.credits__text {
+    margin-top: 1rem;
 }
