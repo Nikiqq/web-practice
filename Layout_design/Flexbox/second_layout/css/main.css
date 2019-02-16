@@ -5,6 +5,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Sintony', sans-serif;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 ul, li {
@@ -27,4 +33,82 @@ h1, h2, h3, h4, h5, h6 {
 .img-block {
     display: block;
     width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/*Section - header*/
+
+.site-header {
+    padding: 24px 0 22px;
+}
+
+.site-header__content {
+    align-items: center;
+}
+
+.site-header__logo-block,
+.site-header__button-block,
+.site-header__nav {
+    padding: 0 10px;
+}
+
+.site-header__logo-block,
+.site-header__button-block {
+    width: 25%;
+}
+
+.site-header__nav {
+    width: 50%;
+}
+
+.menu {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu__item {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.menu__link {
+    display: block;
+    color: #2c465a;
+    text-transform: uppercase;
+}
+
+.button {
+    background: #fea100;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    border: 0;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.site-header__button {
+    margin-top: -4px;
+    padding: 15px 18px 15px 20px;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-button__icon {
+    background-image: url(../img/order.png);
+    display: block;
+    width: 21px;
+    height: 17px;
 }
