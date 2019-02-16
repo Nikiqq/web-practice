@@ -1,0 +1,30 @@
+/*Specification*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+}
+
+ul, li {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.orange {
+    color: #fea100;
+}
+
+.pink {
+    color: #fe4c8d;
+}
+
+.img-block {
+    display: block;
+    width: 100%;
+}
