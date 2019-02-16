@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0; 
     font-family: 'Sintony', sans-serif;
     line-height: 1.5em;
 }
@@ -112,3 +112,38 @@ h1, h2, h3, h4, h5, h6 {
     width: 21px;
     height: 17px;
 }
+
+/*Section - offer*/
+
+.offer {
+    background: url(../img/first-bg.jpg) no-repeat center top;
+    padding: 220px 0;
+}
+
+.title {
+    padding: 0 10px;
+}
+
+.title__heading {
+    font-size: 56px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    line-height: 56px
+}
+
+.title__desc {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+}
+
+.title__span {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
