@@ -150,16 +150,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px 0;
 }
 
-.call__content {
-    text-align: center;
-}
-
-.phone,
+.call__content,
 .phone__block {
     align-items: center;
 }
 
-.phone {
+.call__content {
     justify-content: center;
 }
 
@@ -189,6 +185,56 @@ h1, h2, h3, h4, h5, h6 {
     color: #14141d;
     margin-left: 42px;
 }
+
+/*Section - about*/
+
+.about {
+    padding: 65px 0 100px;
+}
+
+.about__content {
+    align-items: center;
+}
+
+.about__desc {
+    width: 50%;
+}
+
+.food-images {
+    width: 25%;
+}
+
+.about__desc,
+.food-images {
+    padding: 0 15px;
+}
+
+.desc__title {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.desc__text {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.desc__button {
+    padding: 18px 35px;
+}
+
+.food-images__item {
+    margin-bottom: 10px;
+}
+
+.food-images_down {
+    margin-top: 70px;
+}
+
+
+
+
+
 
 
 
