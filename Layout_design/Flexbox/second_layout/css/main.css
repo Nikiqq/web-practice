@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 50%;
 }
 
+.nav-toggler {
+    display: none;
+}
+
 .menu {
     width: 100%;
     justify-content: space-between;
@@ -116,6 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 21px;
     height: 17px;
 }
+
 
 /*Section - offer*/
 
@@ -557,7 +562,23 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         border-right: 0;
         font-size: 1.6em;
-    }    
+    }   
+    
+    .nav-toggler {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 0 6px 10px;
+        border: 2px solid #ffdc9f;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .nav-toggler__icon {
+        font-size: 24px;
+        color: #9f9f9f;
+    }
+        
 }
 
 
