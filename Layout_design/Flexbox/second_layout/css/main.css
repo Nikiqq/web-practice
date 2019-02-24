@@ -244,6 +244,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 70px;
 }
 
+.special__content {
+    padding: 0 15px;    
+}
+
 .special__title {
     font-size: 2.2em;
     color: white;
@@ -366,6 +370,196 @@ h1, h2, h3, h4, h5, h6 {
 .credits {
     width: 33.333%;
 }
+
+
+/*Adaptive*/
+
+
+@media (max-width:992px)  {
+    
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    .site-header__content,
+    .special-cards,
+    .site-footer__credits-block
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .site-header__logo-block,
+    .site-header__button-block
+    {
+        width: 100%;
+    }
+    
+    .site-header__nav,
+    .food-card {
+        width: 80%;
+    }
+    
+    .site-header {
+        padding-top: 40px;
+    }
+    
+    .site-header__logo {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+    .site-header__button {
+        margin: 10px auto;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center !important;
+    }
+    
+    .header-button__icon {
+        margin-right: 14px;
+    }
+    
+    .food-images_down {
+        margin-top: 0;
+    }
+        
+    .site-footer__credits-block {
+        padding: 0 15px;
+    }
+    
+    .line {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    .site-header__nav {
+        width: 100%;
+    }
+    
+    .about__content {
+        flex-wrap: wrap;
+    }
+    
+    .about__desc {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .food-images {
+        width: 50%;
+    }
+    
+    .food-images__item {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media (max-width: 650px) {
+    
+    .food-card__img,
+    .food-card__desc {
+        margin-bottom: 35px;
+    }
+        
+    .food-card__details {
+        flex-wrap: wrap;
+    }
+    
+    .food-card__delivery,
+    .food-card__price{
+        width: 100%;
+    }
+    
+    .food-card__delivery {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    
+    .container {
+        padding: 0;
+    }
+    
+    .site-header__menu {
+        flex-direction: column;
+    }
+    
+    .menu__link {
+        padding: 6px 10px;
+    }
+    
+    .menu__link:hover {
+        background-color: #dedede;
+    }
+    
+    .title__heading {
+        font-size: 36px;
+    }
+    
+    .title__desc {
+        font-size: 30px;
+    }
+    
+    .offer {
+        padding: 140px 0;
+    }
+    
+    .call__content {
+        flex-wrap: wrap;
+    }
+    
+    .phone__block,
+    .phone__number {
+        width: 100%;
+    }
+    
+    .phone__block {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .phone__number {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .food-images {
+        width: 100%;
+    }
+    
+    .food-card {
+        width: 90%;
+    }
+    
+    .food-card__delivery {
+        flex-wrap: wrap;
+    }
+    
+    .food-card__delivery-text,
+    .food-card__phone {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .food-card__delivery-text {
+        width: 100%;
+        border-right: 0;
+        font-size: 1.6em;
+    }    
+}
+
 
 
 
