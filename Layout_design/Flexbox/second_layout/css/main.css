@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #fe4c8d;
 }
 
+.pink {
+    color: #fe4c8d;
+}
+
 .img-block {
     display: block;
     width: 100%;
@@ -229,6 +233,82 @@ h1, h2, h3, h4, h5, h6 {
 
 .food-images_down {
     margin-top: 70px;
+}
+
+
+/*Section - special*/
+
+
+.special {
+    background: url(../img/third-bg.jpg) no-repeat center top;
+    padding-top: 70px;
+}
+
+.special__title {
+    font-size: 2.2em;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.special-cards {
+    justify-content: space-between;
+}
+
+.food-card {
+    width: 48.3%;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    padding-bottom: 28px;
+    margin-bottom: 128px;
+}
+
+.food-card__img {
+    margin-bottom: 52px;
+}
+
+.food-card__title {
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.food-card__desc {
+    font-size: 0.9em;
+    padding: 0 50px;
+    margin-bottom: 62px;
+}
+
+.food-card__details {
+    padding-top: 1.2em;
+    border-top: 1px solid #e1e1e1;
+    margin: 0 48px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-card__delivery {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 700;
+    align-items: center;
+}
+
+.food-card__delivery-text {
+    width: 78px;
+    text-align: left;
+    margin-right: 10px;
+    border-right: 1px solid #e1e1e1;
+}
+
+.food-card__phone {
+    font-size: 1.7em;
+    margin-left: 18px;
+}
+
+.food-card__price {
+    font-size: 28px;
+    font-weight: 700;
 }
 
 
